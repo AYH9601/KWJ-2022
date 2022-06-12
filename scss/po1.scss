@@ -1,0 +1,39 @@
+.po1 {
+    h2 {
+        font: bold 30px/1 "poppins";
+        margin-bottom: 50px;
+        color: #fff;
+    }
+
+    h3 {
+        position: absolute;
+        top: 21px;
+        right: 53px;
+        font: bold 15px/1 "poppins";
+        color: #fff;
+    }
+
+    .po1Pic {
+        // border-top: 5px solid #fff;
+        width: 1420px;
+        height: 500px;
+        background-image: url(../img/po1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .po1Comment {
+        position: absolute;
+        bottom: 10px;
+        // background-color: #000;
+        // width: 60%;
+
+        p {
+            font: bold 18px/2 "noto sans kr";
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+}
