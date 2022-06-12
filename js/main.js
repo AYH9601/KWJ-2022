@@ -12,14 +12,17 @@ const swiper = new Swiper("#wrap", {
         prevEl: ".swiper-button-prev"
     },
 
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     type: "bullets",
-    //     clickable: true,
-    //     renderBullet: function(index, className){
-    //         return `<span class="${className}">${menu[index]}</span>`
-    //     }
-    // },
+
+    
+    pagination: {
+        el: ".swiper-pagination",
+        // type: "bullets",
+        // clickable: true,
+        // renderBullet: function(index, className){
+        //     return `<span class="${className}">${menu[index]}</span>`
+        // }
+        dynamicBullets: true
+    },
 });
 
 //Dom Caching

@@ -45,7 +45,7 @@
     }
 
     .header {
-        display: noneg;
+        // display: none;
         z-index: 5;
         position: absolute;
         top: 0;
@@ -55,31 +55,11 @@
         background-color: #000;
         opacity: 0.8;
 
-        .git {
-            float: left;
-            margin-top: 3vh;
-            margin-left: 1.5vw;
-
-            .gitImg {
-                width: 50px;
-                height: 50px;
-                .gitLogoImg {
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                    border: 2px solid #fff;
-                    background-image: url(../img/git.png);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    transition: 0.2s;
-                    &:hover {
-                        border: 4px solid #fff;
-                        transition: 0.1s;
-                    }
-                }
-            }
-    
+        h1 {
+            color: #fff;
+            font: bold 25px/110px "poppins";
+            text-align: center;
+            letter-spacing: 1px;
         }
     }
 
@@ -103,6 +83,10 @@
                 backdrop-filter: blur(10px);
                 opacity: 0.5;
                 transition: opacity 1s;
+
+                h2 {
+                    letter-spacing: 2px;
+                }
             }
 
             &.swiper-slide-active .inner {
