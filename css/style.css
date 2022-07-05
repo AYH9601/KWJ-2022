@@ -112,17 +112,17 @@ a {
   #wrap .po1 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
-    color: #fff; }
+    color: #000; }
   #wrap .po1 h3 {
     position: absolute;
     top: 21px;
     right: 53px;
     font: bold 15px/1 "poppins";
-    color: #fff; }
+    color: #000; }
   #wrap .po1 .po1Pic {
-    width: 1420px;
+    width: 700px;
     height: 500px;
-    background-image: url(../img/po1.jpg);
+    background-image: url(../img/1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -132,7 +132,7 @@ a {
     #wrap .po1 .po1Comment p {
       font: bold 18px/2 "noto sans kr";
       text-align: center;
-      color: #fff; }
+      color: #000; }
   #wrap .po2 h2 {
     font: bold 30px/1 "poppins";
     margin-bottom: 50px;
@@ -171,10 +171,9 @@ a {
     font: bold 15px/1 "poppins";
     color: crimson; }
   #wrap .po2 .po2Pic {
-    border-top: 5px solid crimson;
-    width: 600px;
-    height: 350px;
-    background-image: url(../img/UmbrellaPage.png);
+    width: 397px;
+    height: 562px;
+    background-image: url(../img/2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -183,7 +182,7 @@ a {
     top: 130px;
     left: 750px; }
     #wrap .po2 .po2Comment p {
-      font: bold 25px/2 "noto sans kr";
+      font: bold 18px/2 "noto sans kr";
       color: #333; }
   #wrap .po2 .po2Logo {
     margin-top: 30px;
@@ -257,10 +256,9 @@ a {
     color: #fff;
     letter-spacing: 1px; }
   #wrap .po3 .po3Pic {
-    border-top: 5px solid dodgerblue;
-    width: 600px;
-    height: 350px;
-    background-image: url(../img/PortalPage.png);
+    width: 397px;
+    height: 562px;
+    background-image: url(../img/3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -269,7 +267,7 @@ a {
     top: 130px;
     left: 750px; }
     #wrap .po3 .po3Comment p {
-      font: bold 25px/2 "noto sans kr";
+      font: bold 18px/2 "noto sans kr";
       color: #333; }
   #wrap .po3 .po3Logo {
     margin-top: 30px;
@@ -317,11 +315,11 @@ a {
     #wrap .bg li:nth-of-type(1) {
       background-color: #fff; }
     #wrap .bg li:nth-of-type(2) {
-      background-image: url(../img/green.jpg); }
+      background-color: #fff; }
     #wrap .bg li:nth-of-type(3) {
-      background-image: url(../img/green.jpg); }
+      background-color: #fff; }
     #wrap .bg li:nth-of-type(4) {
-      background-image: url(../img/green.jpg); }
+      background-color: #fff; }
   #wrap .header {
     z-index: 5;
     position: absolute;
