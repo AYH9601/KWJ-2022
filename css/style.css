@@ -114,21 +114,22 @@ a {
     margin-bottom: 50px;
     color: #000; }
   #wrap .po1 h3 {
-    position: absolute;
-    top: 21px;
-    right: 53px;
+    text-align: center;
+    margin-bottom: 20px;
     font: bold 15px/1 "poppins";
     color: #000; }
   #wrap .po1 .po1Pic {
+    margin: 0 auto;
     width: 700px;
     height: 500px;
     background-image: url(../img/1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    margin-bottom: 30px; }
   #wrap .po1 .po1Comment {
-    position: absolute;
-    bottom: 40px; }
+    bottom: 40px;
+    background-color: #fff; }
     #wrap .po1 .po1Comment p {
       font: bold 18px/2 "noto sans kr";
       text-align: center;
